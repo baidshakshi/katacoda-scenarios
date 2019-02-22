@@ -19,7 +19,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal-split",
     "uimessage1": ""
   },
   "backend": {
