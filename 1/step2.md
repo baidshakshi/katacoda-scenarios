@@ -6,7 +6,7 @@ MyTask:
 ```
 
 #### Task
-Use the editor to create a Makefile with a target called *build* that executes the command `docker build -t benhall/docker-make-example .`
+Use the editor to create a Makefile with a target called *build* that executes the command `docker build -t shakshibaid/docker-make-example .`
 
 #### Protip
 Make requires Makefiles to use tabs for intention. Using spaces will cause the error _Makefile:2: * missing separator. Stop._
