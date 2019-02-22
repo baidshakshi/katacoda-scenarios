@@ -1,4 +1,4 @@
 ```
 build:
-    docker build -t benhall/docker-make-example .
+    docker build -t shakshibaid/docker-make-example .
 ```
