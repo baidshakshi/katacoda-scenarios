@@ -1,2 +1,2 @@
-echo >> Dockerfile
-
+echo 'FROM busybox' >> Dockerfile
+echo 'CMD ["date"]' >> Dockerfile
