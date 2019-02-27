@@ -1,5 +1,9 @@
-This scenario has a Dockerfile which defines a Docker container to output the current date.
+The most common scenario for connecting to containers is an application connecting to a data-store. The key aspect when creating a link is the name of the container. All containers have names, but to make it easier when working with links, it's important to define a friendly name of the source container which you're connecting to.
 
-The command `docker build -t shakshibaid/docker-make-example.` will create a Docker image is a friendly tag  shakshibaid/docker-make-example_ which we can use when starting a container based on the image.
+Start Data Store
+Run a redis server with a friendly name of redis-server which we'll connect to in the next step. This will be our source container.
 
-In the next step we'll demostrate how to use this command inside a Makefile.
+`docker run -d --name redis-server redis`{{execute}}
+
+Redis
+Redis is a fast, open source, key-value data store.
