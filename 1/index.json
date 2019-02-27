@@ -3,24 +3,14 @@
 	"description": "Docker- Communicating between containers",
 	"details": {
 		"steps": [{
-			"title": "Step 1 - Dockerfile",
+			"title": "Step 1 - Start Redis",
 			"text": "step1.md",
-			"code": "step1-code.sh"
 		}, {
-			"title": "Step 2 - Makefile",
+			"title": "Step 2 - Create Link",
 			"text": "step2.md",
-			"answer": "step2-answer.md",
-			"verify": "step2-verify.sh"
 		}, {
-			"title": "Step 3 - Executing Make",
+			"title": "Step 3 - Connect to App",
 			"text": "step3.md"
-		}, {
-			"title": "Step 4 - Additional Commands",
-			"text": "step4.md",
-			"answer": "step4-answer.md"
-		}, {
-			"title": "Step 5 - Setting Default Command",
-			"text": "step5.md"
 		}],
 		"intro": {
 			"text": "intro.md"
@@ -31,8 +21,7 @@
 	},
 	"files": ["Makefile"],
 	"environment": {
-		"uilayout": "editor",
-		"uisettings": "makefile",
+		"uilayout": "terminal",
 		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
 	},
 	"backend": {
