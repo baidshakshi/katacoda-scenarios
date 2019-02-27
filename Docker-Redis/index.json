@@ -1,0 +1,30 @@
+{
+	"title": "Docker and Redis",
+	"description": "Docker- Communicating between containers",
+	"details": {
+		"steps": [{
+			"title": "Step 1 - Start Redis",
+			"text": "step1.md"
+		}, {
+			"title": "Step 2 - Create Link",
+			"text": "step2.md"
+		}, {
+			"title": "Step 3 - Connect to App",
+			"text": "step3.md"
+		}],
+		"intro": {
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	
+	"environment": {
+		"uilayout": "terminal",
+		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+	},
+	"backend": {
+		"imageid": "docker"
+	}
+}
