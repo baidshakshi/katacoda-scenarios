@@ -4,10 +4,10 @@
 	"details": {
 		"steps": [{
 			"title": "Step 1 - Start Redis",
-			"text": "step1.md",
+			"text": "step1.md"
 		}, {
 			"title": "Step 2 - Create Link",
-			"text": "step2.md",
+			"text": "step2.md"
 		}, {
 			"title": "Step 3 - Connect to App",
 			"text": "step3.md"
