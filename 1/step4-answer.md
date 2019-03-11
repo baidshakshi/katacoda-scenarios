@@ -1,4 +1,4 @@
 ```
 run:
-    docker run shakshibaid/docker-make-example
+    docker run benhall/docker-make-example
 ```

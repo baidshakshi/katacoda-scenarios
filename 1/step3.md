@@ -1,11 +1,7 @@
-With a link created, applications can connect and communicate with the source container in the usual way, independent of the fact both services are running in containers.
+Once the Makefile has been updated it can be used by the `make` utility. After executing, the utility will output the logs and if successful the artifacts will be created.
 
-#### Example Application
-Here is a simple node.js application which connects to redis using the hostname redis.
+#### Task
+Execute the build command for the image using `make`{{execute}}
 
-`docker run -d -p 3000:3000 --link redis-server:redis katacoda/redis-node-docker-example`{{execute}}
-
-#### Test Connection
-Sending an HTTP request to the application will store the request in Redis and return a count. If you issue multiple requests, you'll see the counter increment as items are persisted.
-
-`curl docker:3000`{{execute}}
+#### Protip
+You can find the additional command options using `make --help`{{exeucte}}. To see the Docker image create use the command `docker images`{{execute}}
