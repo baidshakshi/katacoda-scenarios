@@ -11,13 +11,14 @@
 		}],
 		"intro": {
 			"text": "intro.md"
+			"courseData":"configure.sh"
 		},
 		"finish": {
 			"text": "finish.md"
 		}
 	},
 	 "files": [
-		 "deployment.yaml"
+		 "deployment.yaml","configure.sh"
     ],
 	"environment": {
 		"uilayout": "editor-terminal",
