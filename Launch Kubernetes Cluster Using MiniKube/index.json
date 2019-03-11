@@ -11,10 +11,6 @@
 		}, {
 			"title": "Step 3 - Deploy Containers",
 			"text": "step3.md"
-		},
-		 {
-			"title": "Step 4 -  Dashboard",
-			"text": "step4.md"
 		}],
 		"intro": {
 			"text": "intro.md"
