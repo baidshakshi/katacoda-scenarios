@@ -17,10 +17,11 @@
 		}
 	},
 	 "files": [
-        "app.go"
+		 "deployment.yaml"
     ],
 	"environment": {
 		"uilayout": "editor-terminal",
+		"uisettings":"yaml",
 		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
 	},
 	"backend": {
