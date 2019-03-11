@@ -1,6 +1,6 @@
 {
-	"title": "Kubernetes & Minikube",
-	"description": "Launch Kubernetes Cluster Using MiniKube",
+	"title": "Kubernetes",
+	"description": "Launch Kubernetes Cluster",
 	"details": {
 		"steps": [{
 			"title": "Step 2 - Cluster Info",
