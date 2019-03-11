@@ -31,7 +31,7 @@
 			"text": "finish.md"
 		}
 	},
-	"files": ["Makefile"],
+	"files": ["Makefile", "app.go"],
 	"environment": {
 		"uilayout": "editor",
 		"uisettings": "makefile",
