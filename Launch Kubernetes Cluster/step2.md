@@ -1,3 +1,5 @@
+`pre-configure.sh`{{execute}}
+
 The cluster can be interacted with using the kubectl CLI. This is the main approach used for managing Kubernetes and the applications running on top of the cluster.
 
 Details of the cluster and its health status can be discovered via 
