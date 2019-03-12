@@ -6,10 +6,10 @@
 			"title": "Step 1 - Configuration",
 			"text": "step1.md"
 		},{
-			"title": "Step 2 - Cluster Info",
+			"title": "Step 2 - Create Deployment",
 			"text": "step2.md"
 		}, {
-			"title": "Step 3 - Deploy Containers",
+			"title": "Step 3 - Create Services",
 			"text": "step3.md"
 		}],
 		"intro": {
@@ -21,7 +21,7 @@
 		}
 	},
 	 "files": [
-		 "deployment.yaml"
+		 "deployment.yaml", "service.yaml"
     ],
 	"environment": {
 		"uilayout": "editor-terminal",
