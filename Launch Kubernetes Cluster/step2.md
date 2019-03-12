@@ -21,7 +21,7 @@ spec:
       - name: webapp1
         image: katacoda/docker-http-server:latest
         ports:
-        - containerPort: 80`
+        - containerPort: 80`{{copy}}
 
 This is deployed to the cluster with the command
 `kubectl create -f deployment.yaml`{{execute}}
