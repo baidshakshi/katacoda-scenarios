@@ -6,7 +6,7 @@ Details of the cluster and its health status can be discovered via
 #### Task
 Copy the following definition to the editor. The definition defines how to launch an application called webapp1 using the Docker Image katacoda/docker-http-server that runs on Port 80.
 
-apiVersion: extensions/v1beta1
+`apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: webapp1
@@ -21,7 +21,7 @@ spec:
       - name: webapp1
         image: katacoda/docker-http-server:latest
         ports:
-        - containerPort: 80
+        - containerPort: 80`
 
 This is deployed to the cluster with the command
 `kubectl create -f deployment.yaml`{{execute}}
