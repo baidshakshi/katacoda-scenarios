@@ -11,6 +11,9 @@
 		}, {
 			"title": "Step 3 - Create Services",
 			"text": "step3.md"
+		}, {
+			"title": "Step 4 - Create Node",
+			"text": "step4.md"
 		}],
 		"intro": {
 			"text": "intro.md",
