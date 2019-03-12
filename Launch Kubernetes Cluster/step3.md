@@ -1,19 +1,29 @@
-With a running Kubernetes cluster, containers can now be deployed.
+Kubernetes has powerful networking capabilities that control how applications communicate. These networking configurations can also be controlled via YAML.
 
-Using kubectl run, it allows containers to be deployed onto the cluster-
-`kubectl run first-deployment --image=katacoda/docker-http-server --port=80`{{execute}}
+#### Task
+Copy the Service definition to the editor. The Service selects all applications with the label webapp1. As multiple replicas, or instances, are deployed, they will be automatically load balanced based on this common label. The Service makes the application available via a NodePort.
 
-The status of the deployment can be discovered via the running Pods - 
-`kubectl get pods`{{execute}}
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp1-svc
+  labels:
+    app: webapp1
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    nodePort: 30080
+  selector:
+    app: webapp1
+```
+All Kubernetes objects are deployed in a consistent way using kubectl.
 
-Once the container is running it can be exposed via different networking options, depending on requirements. One possible solution is NodePort, that provides a dynamic port to a container.
+Deploy the Service with `kubectl create -f service.yaml`{{execute}}
 
-`kubectl expose deployment first-deployment --port=80 --type=NodePort`{{execute}}
+As before, details of all the Service objects deployed with kubectl get svc. By describing the object it's possible to discover more details about the configuration 
+`kubectl describe svc webapp1-svc.`{{execute}}
 
-The command below finds the allocated port and executes a HTTP request.
+`curl host01:30080`{{execute}}
 
-`export PORT=$(kubectl get svc first-deployment -o go-template='{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{"\n"}}{{end}}{{end}}')
-echo "Accessing host01:$PORT"
-curl host01:$PORT`{{execute}}
-
-The results is the container that processed the request.
