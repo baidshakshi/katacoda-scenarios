@@ -18,7 +18,7 @@
 		}
 	},
 	 "files": [
-		 "deployment.yaml","configure.sh"
+		 "deployment.yaml"
     ],
 	"environment": {
 		"uilayout": "editor-terminal",
