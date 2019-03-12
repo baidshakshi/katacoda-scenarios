@@ -23,7 +23,7 @@ All Kubernetes objects are deployed in a consistent way using kubectl.
 Deploy the Service with `kubectl create -f service.yaml`{{execute}}
 
 As before, details of all the Service objects deployed with kubectl get svc. By describing the object it's possible to discover more details about the configuration 
-`kubectl describe svc webapp1-svc.`{{execute}}
+`kubectl describe svc webapp1-svc`{{execute}}
 
 `curl host01:30080`{{execute}}
 
