@@ -24,7 +24,7 @@
 		}
 	},
 	 "files": [
-		 "deployment.yaml", "service.yaml"
+		 "deployment.yaml", "service.yaml","node.yaml"
     ],
 	"environment": {
 		"uilayout": "editor-terminal",
