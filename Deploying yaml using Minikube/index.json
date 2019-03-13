@@ -1,5 +1,5 @@
 {
-	"title": "Kubernetes",
+	"title": "Deploying yaml using Minikube",
 	"description": "Launch Kubernetes Cluster",
 	"details": {
 		"steps": [{
