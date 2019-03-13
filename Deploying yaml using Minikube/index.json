@@ -16,8 +16,7 @@
 			"text": "step4.md"
 		}],
 		"intro": {
-			"text": "intro.md",
-			"courseData": "pre-configure.sh"
+			"text": "intro.md"
 		},
 		"finish": {
 			"text": "finish.md"
