@@ -4,7 +4,7 @@
 apiVersion: v1
 kind: Node
 metadata:
-  name: webapp1-svc
+  name: webapp1-node
   labels:
     app: webapp1
 ```
