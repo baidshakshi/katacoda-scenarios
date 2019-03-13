@@ -2,11 +2,19 @@
 
 ```
 apiVersion: v1
-kind: Node
-metadata:
-  name: webapp1-node
-  labels:
+kind: Pod
+metadata: 
+  labels: 
     app: webapp1
+  name: nginx
+spec: 
+  containers: 
+    - 
+      image: "katacoda/docker-http-server:latest"
+      name: webapp1
+      ports: 
+        - 
+          containerPort: 80
 ```
 `kubectl create -f node.yaml`{{execute}}
 
