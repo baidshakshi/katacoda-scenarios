@@ -11,9 +11,6 @@
 		}, {
 			"title": "Step 3 - Create Services",
 			"text": "step3.md"
-		}, {
-			"title": "Step 4 - Create Node",
-			"text": "step4.md"
 		}],
 		"intro": {
 			"text": "intro.md",
@@ -24,7 +21,7 @@
 		}
 	},
 	 "files": [
-		 "deployment.yaml", "service.yaml","node.yaml"
+		 "deployment.yaml", "service.yaml"
     ],
 	"environment": {
 		"uilayout": "editor-terminal",
